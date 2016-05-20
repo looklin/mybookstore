@@ -1,0 +1,33 @@
+body{
+	background:url(../../../images/waterfall/water_bg.jpg);
+	background-repeat: repeat;
+}
+.pic {
+    font-size: 0;
+    padding: 15px;
+    border: 3px solid  #3f2860;
+    border-radius: 50px;
+}
+
+.box {
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+.pic:hover {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+img:hover {
+    width: 205px;
+}
+#nav ul li:nth-child(2){
+    background:red;
+}

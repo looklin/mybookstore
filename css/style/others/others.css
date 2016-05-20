@@ -1,0 +1,125 @@
+.banner {
+    width: 1000px;
+    padding-top: 510px;
+}
+
+.banner li {
+    list-style: none;
+}
+
+.banner ul li {
+    float: left;
+}
+
+.wrapper {
+    position: relative;
+    width: 1026px;
+    margin: 0 auto;
+}
+
+.section4 {
+    height: auto;
+    margin-top: 20px;
+}
+
+.section4 .banner ul li {
+    height: auto;
+}
+
+.section4 .dots {
+    position: absolute;
+    width: 1007px;
+    height: auto;
+    top: 0px;
+    text-align: center;
+    font-size: 15px;
+    background: #fff;
+}
+
+.section4 .dot {
+    float: left;
+    line-height: 504px;
+    width: auto;
+    cursor: pointer;
+}
+
+.section4 .dot1 {
+    width: 100px;
+    background: url(Images/bookPictures/二流小说家.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot1.active {
+    opacity: 1;
+}
+
+.section4 .dot2 {
+    width: 100px;
+    background: url(Images/bookPictures/嘿，三十岁.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot2.active {
+    opacity: 1;
+}
+
+.section4 .dot3 {
+    width: 117px;
+    background: url(Images/bookPictures/收山.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot3.active {
+    opacity: 1;
+}
+
+.section4 .dot4 {
+    width: 134px;
+    background: url(Images/bookPictures/极简宇宙史.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot4.active {
+    repeat;
+    opacity: 1;
+}
+
+.section4 .dot5 {
+    width: 176px;
+    background: url(Images/bookPictures/斯通纳.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot5.active {
+    opacity: 1;
+}
+
+.section4 .dot6 {
+    width: 134px;
+    background: url(Images/bookPictures/解忧杂货店.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot6.active {
+    opacity: 1;
+}
+
+.section4 .dot7 {
+    width: 115px;
+    background: url(Images/bookPictures/红楼梦.jpg) no-repeat;
+    opacity: 0.5;
+}
+
+.section4 .dot7.active {
+    opacity: 1;
+}
+
+.section4 .dot8 {
+    width: 95px;
+    background: url(Images/bookPictures/外婆外婆.jpg) no-repeat;
+    opacity: 0.5
+}
+
+.section4 .dot8.active {
+    opacity: 1;
+}

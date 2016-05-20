@@ -1,0 +1,100 @@
+body {
+    // background:url(../../Images/ebook/ebook_bg.jpg);
+    background:#666699;
+}
+#nav ul li:nth-child(2){
+    background-color: red;
+}
+.minimap {
+    z-index: 10000;
+    position: fixed;
+    cursor: pointer;
+}
+
+.miniregion {
+    z-index: 10001;
+    position: fixed;
+    background: transparent;
+    border: 2px solid silver;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.miniregion:hover {
+    box-shadow: 0 0 0.4em darkgrey;
+}
+
+.content {
+    margin-top: 20px;
+    width: 880px;
+    // background: lime;
+    background:url(../../../images/ebook/ebook_bg.jpg);
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#adv{
+    height: 1000px;width: 240px;position: absolute;top: 100px;right: 180px;
+    margin-top: -20px;
+    background-color: #3f2860;
+    opacity: 0.8;
+    border:1px solid  gray; 
+}
+#adv ul li a:hover{
+    color:white;
+    background-color: red;
+    opacity:1;
+
+}
+#adv h6{
+    font-size: 30px;
+    padding: 10px;
+}
+h1 {
+    font-size: 30px;
+    float: left;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+p {
+    text-indent: 2em;
+    padding: 5px;
+}
+table{
+        border: 0;
+        border-collapse: collapse;
+     }
+     th{
+        font-size: 20px;
+        font-family: 微软雅黑;
+        margin-top: 10px;
+     }
+     td{
+        font: normal 20px Arial;
+        color: black;
+        width: 240px;
+        padding: 5px;
+        border:1px solid gray;
+        padding-left: 50px;
+         }
+         td:hover{
+            background-color: #fa8b60;
+
+         }
+          .book{
+            background: orange;
+            cursor: pointer;
+           }
+           .selected{
+            background: #3f2860;
+            color: #fff;
+            }

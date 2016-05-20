@@ -1,0 +1,73 @@
+body{
+	font-family: 微软雅黑;
+}
+#container{
+	clear: both;
+	height: 800px;
+	width: 100%;
+	background: #7a9a95;
+	// border: 1px solid black;
+}
+#laside{
+	width: 30%;
+	height: 700px;
+	background: #ef6d3b;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+#raside{
+	width: 65%;
+	height: 700px;
+	margin-top: 50px;
+	float: right;
+	// float: left;
+
+	// background: green;
+}
+#raside div{
+	width: 100%;
+	height: 682px;
+	// background: pink;
+	position: relative;
+	overflow: hidden;
+}
+#raside div img{
+		height: 100%;
+		width: 100%;
+		opacity: 0.4;
+	}
+#raside a{
+		display: none;
+		float: left;
+		height: 100px;
+		width: 100px;
+		border-radius: 50px;
+		z-index: 1;
+		overflow: hidden;
+		position: absolute;
+		left: 0px;
+		/*top: 1200px;*/
+	}
+#raside	a:hover{
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		z-index: 100;
+		overflow: hidden;
+	}
+#raside h1{
+	position: absolute;
+	float: left;
+	z-index: 100;
+}
+#raside h1 input{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	opacity: 0.5;
+}
+#raside h1 input:hover{
+	opacity: 1;
+	background: red;
+}
